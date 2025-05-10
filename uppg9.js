@@ -8,7 +8,22 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    function sort(arr) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                console.log(arr[i] + " är jämt");
+            } else {
+                console.log(arr[i] + " är udda");
+            }
+        }
+    }
+
+    sort(numbers);
   
 }
+
+uppg9();
 
 module.exports = { uppg9 };
