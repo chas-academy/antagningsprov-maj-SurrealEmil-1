@@ -13,6 +13,7 @@ function uppg7() {
     const result = sum(5, 10);
     console.log(result);
 
+    return result;
 }
 
 uppg7();
