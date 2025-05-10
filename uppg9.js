@@ -14,9 +14,9 @@ function uppg9 (){
         for (let i = 0; i < arr.length; i++) {
             const num = arr[i];
             if (num % 2 === 0) {
-                console.log([num, "jämt"]);
+                console.log(num, "jämt");
             } else {
-                console.log([num, "udda"]);
+                console.log(num, "udda");
             }
         }
     }
