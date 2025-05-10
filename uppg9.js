@@ -12,10 +12,11 @@ function uppg9 (){
 
     function sort(arr) {
         for (let i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 === 0) {
-                console.log(arr[i] + " är jämt");
+            const num = arr[i];
+            if (num % 2 === 0) {
+                console.log([num, "jämt"]);
             } else {
-                console.log(arr[i] + " är udda");
+                console.log([num, "udda"]);
             }
         }
     }
