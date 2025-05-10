@@ -1,0 +1,1 @@
+"Summan av " + a + " och " + b + " är: " + 
